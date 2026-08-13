@@ -1,0 +1,13 @@
+diff --git a/src/main/java/com/example/Calculator.java b/src/main/java/com/example/Calculator.java
+index f432029..d07929f 100644
+--- a/src/main/java/com/example/Calculator.java
++++ b/src/main/java/com/example/Calculator.java
+@@ -3,6 +3,6 @@ package com.example;
+ public class Calculator {
+ 
+     public int add(int a, int b) {
+-        return a + b;
++        return a + b + 1;
+     }
+ }
+\ No newline at end of file

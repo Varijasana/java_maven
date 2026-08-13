@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.example.CalculatorTest" time="0.23" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sunda\eclipse-workspace\executable_folder\build_output\test-classes;C:\Users\sunda\eclipse-workspace\executable_folder\build_output\classes;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\sunda\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\sunda\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\sunda\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\sunda\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\sunda\AppData\Local\Temp\surefire6381583968604586930\surefirebooter-20260809220056894_3.jar C:\Users\sunda\AppData\Local\Temp\surefire6381583968604586930 2026-08-09T22-00-56_502-jvmRun1 surefire-20260809220056894_1tmp surefire_0-20260809220056894_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sunda\eclipse-workspace\executable_folder\build_output\test-classes;C:\Users\sunda\eclipse-workspace\executable_folder\build_output\classes;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\sunda\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\sunda\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\sunda\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\sunda\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\sunda\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sunda"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sunda\eclipse-workspace\executable_folder"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sunda\AppData\Local\Temp\surefire6381583968604586930\surefirebooter-20260809220056894_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="sunda"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sunda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sunda\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\sunda\eclipse-workspace\executable_folder"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\sunda\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sunda\bin;C:\Users\sunda\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.11.v20260515-1531\jre\bin\server;C:\Users\sunda\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.11.v20260515-1531\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\sunda\Downloads\apache-maven-3.9.16\bin;C:\Users\sunda\Downloads\apache-maven-3.9.16\bin;C:\Users\sunda\Downloads\apache-maven-3.9.16\bin;C:\Users\sunda\AppData\Local\Programs\Python\Python313\Scripts;C:\Users\sunda\AppData\Local\Programs\Python\Python313;C:\Users\sunda\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\sunda\AppData\Local\Programs\Python\Python312;C:\Users\sunda\AppData\Local\Programs\Python\Launcher;C:\Users\sunda\AppData\Local\Microsoft\WindowsApps;C:\Users\sunda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\mongosh;C:\Users\sunda\AppData\Roaming\npm;C:\Users\sunda\AppData\Local\Programs\Antigravity\bin;C:\Users\sunda\AppData\Local\Programs\Ollama;C:\Users\sunda\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\sunda\AppData\Local\Programs\Antigravity IDE\bin;C:\Program Files\Java\jdk-1.8\bin;C:\Program Files\MongoDB\Server\8.2\bin;C:\Users\sunda\Downloads\mongodb-database-tools-windows-x86_64-100.17.0\bin;C:\Users\sunda\AppData\Local\Kingsoft\WPS Office\12.1.0.27458\clitool;C:\Program Files\Gi;C:\Program Files\nodejs;C:\Windows;C:\Windows\System32;C:\Users\sunda\OneDrive\Desktop;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testAdd" classname="com.example.CalculatorTest" time="0.094"/>
+  <testcase name="testAnotherAdd" classname="com.example.CalculatorTest" time="0.008"/>
+</testsuite>

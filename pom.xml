@@ -9,12 +9,26 @@
     <artifactId>executable-jar</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+    
+    <dependencies>
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.10.2</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>com.custom</groupId>
+    	<artifactId>java-maven-library</artifactId>
+    	<version>1.0</version>
+	</dependency>
+</dependencies>
 
     <build>
         <plugins>
@@ -33,6 +47,39 @@
                 </configuration>
 
             </plugin>
+            <plugin>
+    			<groupId>org.apache.maven.plugins</groupId>
+    			<artifactId>maven-site-plugin</artifactId>
+    			<version>3.21.0</version>
+			</plugin>
+			
+			<plugin>
+    			<groupId>org.jacoco</groupId>
+    			<artifactId>jacoco-maven-plugin</artifactId>
+    			<version>0.8.13</version>
+
+    			<executions>
+        			<execution>
+            			<goals>
+                			<goal>prepare-agent</goal>
+            			</goals>
+        			</execution>
+
+        			<execution>
+           				<id>report</id>
+            			<phase>test</phase>
+            			<goals>
+                			<goal>report</goal>
+            			</goals>
+        			</execution>
+    			</executions>
+			</plugin>
+			
+			<plugin>
+    			<groupId>org.apache.maven.plugins</groupId>
+    			<artifactId>maven-project-info-reports-plugin</artifactId>
+    			<version>3.9.0</version>
+			</plugin>
 
         </plugins>
     </build>
